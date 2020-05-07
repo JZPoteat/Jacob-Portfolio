@@ -9,7 +9,15 @@ img {
 }
 
 h1 {
+    font-size: calc(3em + 1vw);
+}
+
+h2 {
     font-size: calc(2em + 1vw);
+}
+
+h3{
+    font-size: calc(1.5em + 1vw);
 }
 .tech-logo {
     width: 6%;
@@ -34,8 +42,8 @@ h1 {
 }
 
 p {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 body {
