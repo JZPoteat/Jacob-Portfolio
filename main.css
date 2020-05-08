@@ -87,6 +87,10 @@ li {
 
 .nav-list {
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    margin: 0;
     padding: 0px;
 }
 
@@ -101,11 +105,7 @@ li {
 }
 
 .nav-tabs {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: space-evenly;
-    margin: 0;
-    padding: 0px;
+
 }
 
 
