@@ -4,10 +4,7 @@ This application hosts my Portfolio of Projects and Contact information.
 link to live server:  https://thinkful-ei-orka.github.io/Jacob-Portfolio/
 
 ## High Level Basics
-  mobile-first design 
-  semantic, valid markup
-  built from scratch 
-  responsiveness from 320px to 1600px width screens
+  mobile-first design, semantic, valid markup, built from scratch, and responsiveness from 320px to 1600px width screens
 
 ## Contact Section has:
 Email, GitHub, LinkedIn 
