@@ -1,16 +1,16 @@
 # Jacob-Portfolio
 This application hosts my Portfolio of Projects and Contact information.
 
-link to live server:  https://thinkful-ei-orka.github.io/Jacob-Portfolio/
+Link to live server:  https://thinkful-ei-orka.github.io/Jacob-Portfolio/
 
 ## High Level Basics
-  mobile-first design, semantic, valid markup, built from scratch, and responsiveness from 320px to 1600px width screens
+  Mobile-first design, semantic, valid markup, built from scratch, and responsiveness from 320px to 1600px width screens
 
 ## Contact Section has:
 Email, GitHub, LinkedIn 
 
 ## The About Me section:
-  demonstrates passion for the web, wanting to work on a team with great programmers, and my personality outside of coding.
+  Demonstrates passion for the web, wanting to work on a team with great programmers, and my personality outside of coding.
 
 
 ## Project section of the Portfolio includes
