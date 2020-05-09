@@ -141,7 +141,7 @@ li {
     opacity: 0.3;
 }
 
-.logo-img, .live-code, .source-code {
+.logo-img, .live-code, .source-code, .tech-logo {
     mix-blend-mode: multiply;
 }
 
