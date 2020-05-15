@@ -10,6 +10,7 @@ body {
     color: #3A434A;
     text-align: center;
     line-height: 1.5;
+    margin-left: 3%;
 }
 nav {
     padding: 1% 0;
@@ -38,8 +39,8 @@ h2 {
     font-size: calc(2em + 1vw);
 }
 
-h3 {
-    font-size: calc(1.5em + 1vw);
+h3,#closing-statement,#caption {
+    font-size: calc(1.4em + 1vw);
 }
 .tech-logo {
     width: 6%;
@@ -60,8 +61,8 @@ h3 {
 }
 
 p, footer {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 li {
@@ -104,13 +105,12 @@ li {
     width: 70%;
 }
 
-.nav-tabs {
-
-}
-
 
 .project-links {
     width: 75%;
+    margin: 0px;
+    margin-left: 15%;
+    margin-right: -10%;
     
 }
 .project-links, footer {
@@ -133,7 +133,7 @@ li {
     width: 100%;
 }
 
-#TravelImg {
+#TravelImg, #Main-img {
     border-radius: 5%;
 }
 
@@ -146,14 +146,40 @@ li {
 }
 
 
-@media only screen and (min-width: 768px) {
-    #About-Me-container {
-        display: flex;
-        position: relative;
-        align-items: center;
-    }
+@media only screen and (min-width: 600px) {
     #Headshot {
         border-radius: 10%;
         height: 40%;
+        float: right;
+        margin-left: 3%;
+        margin-right: 4%;
+    }
+
+    .Bio {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .img-and-caption {
+        display: flex;
+    }
+    #Main-img {
+        float: left;
+    }
+    #caption {
+        margin: 0px;
+        margin-top: 25%;
+    }
+    .img-and-desc {
+        display: flex;
+    }
+    .Project-Description {
+        margin: 0;
+        width: 50%;
+    }
+    .img-and-desc, .project-links {
+        margin-top: 5%;
     }
 }

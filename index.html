@@ -22,24 +22,26 @@
         </header>
         <section id="Home">
             <h1><br>Jacob Poteat</h1>
-           <img src="Main-img.jpg" alt="Wedding picture" id="Main-img">
-           <p><i>Engineering Immersion student</i></p>
+            <section class="img-and-caption">
+                <img src="Main-img.jpg" alt="Wedding picture" id="Main-img">
+                <p id="caption"><i>Thinkful Engineering Immersion Student</i></p>
+            </section>
         </section>
 
         <section id="About-Me">
             <h2><br><br>Tell me about yourself...</h2>
             <section id="About-Me-container">
                 <section id="About-Me-Text">
-                    <p>My name is Jacob, and I am an aspiring Web Developer who strives to help others <strong>achieve</strong> their goals.  I am excited to join a team where I can 
+                    <img src="Headshot.jpg" alt="headshot" id="Headshot">
+                    <p class="Bio">My name is Jacob, and I am an aspiring Web Developer who strives to help others <strong>achieve</strong> their goals.  I am excited to join a team where I can 
                     <strong>expand</strong> my knowledge of Web Development, and <strong>grow</strong> as a professional. After working in the music industry for 16 years, 
-                    I became a <strong>self-taught</strong> audio engineer, started and maintained a band, and still play weekly gigs.</p>
+                    I became a <strong>self-taught</strong> audio engineer, started and maintained a band, and still play weekly gigs.<br><br>
 
-                    <p>In my spare time, I enjoy <strong>writing</strong> and recording music, <strong>traveling</strong> the world experiencing
-                       different cultures, and going on long drives with Kathleen, my wife, and Bobelle, our Border Collie.</p>
+                    In my spare time, I enjoy <strong>writing</strong> and recording music, <strong>traveling</strong> the world experiencing
+                       different cultures, and going on long drives with Kathleen, my wife, and Bobelle, our Border Collie.<br><br>
 
-                    <p>In the future, I strongly desire to combine my passions for coding and music to improve the music industry.</p>
+                    In the future, I strongly desire to combine my passions for coding and music to improve the music industry.</p>
                 </section>
-                <img src="Headshot.jpg" alt="headshot" id="Headshot">
             </section>
         </section>
 
@@ -53,12 +55,16 @@
                     <img src="jQuery-logo.jpg" alt="jQuery Logo" class="tech-logo">
                     <img src="js-logo.jpg" alt="JavaScript Logo" class="tech-logo"> 
                 </section>
-                <p>Are you one with the Force?  Do you have what it takes to become a Jedi Master?  <br><br> This 5 question quiz was my first project I developed (with my partner Nicholas) during my time at Thinkful.  This app was created to test your knowledge of Star Wars lore, providing feedback after each question, and generates a results page</p>
-                <img src="QuizApp.jpg" alt="Star Wars Quiz App">
-                <div class="project-links">
-                    <a href="https://jzpoteat.github.io/Star-Wars-Quiz-Jacob/" target="_blank" class="source-links"><br><img class="live-code" src="live-icon.jpg" alt="Live-icon" ></a>
-                    <a href="https://github.com/JZPoteat/Star-Wars-Quiz-Jacob" target="_blank" class="source-links"><img class="source-code" src="source-code.jpg" alt="source code icon"></a>
-                </div>
+                <section class="img-and-desc">
+                    <p class="Project-Description">Are you one with the Force?  Do you have what it takes to become a Jedi Master?  <br><br> This 5 question quiz was the first project I developed with my partner, Nicholas, during my time at Thinkful.  This app was created to test your knowledge of Star Wars lore, providing feedback after each question, and generates a results page.</p>
+                    <section class="img-and-links">
+                        <img src="QuizApp.jpg" alt="Star Wars Quiz App">
+                        <section class="project-links">
+                            <a href="https://jzpoteat.github.io/Star-Wars-Quiz-Jacob/" target="_blank" class="source-links"><br><img class="live-code" src="live-icon.jpg" alt="Live-icon" ></a>
+                            <a href="https://github.com/JZPoteat/Star-Wars-Quiz-Jacob" target="_blank" class="source-links"><img class="source-code" src="source-code.jpg" alt="source code icon"></a>
+                        </section>
+                    </section>
+                </section>
             </section>
             <section class="project" id="Bookmark-App">
                 <h3>Bookmarks</h3>
@@ -68,20 +74,23 @@
                     <img src="jQuery-logo.jpg" alt="jQuery Logo" class="tech-logo">
                     <img src="js-logo.jpg" alt="JavaScript Logo" class="tech-logo"> 
                 </section>
-                <p>Bookmarks is an app I created to track your favorite bookmarks using an API.  This project was a great learning experience for the relationship between Clients, API's and Servers, and taught me the importance of storing user input outside the DOM.</p>
-                <img src="BookmarkApp.jpg" alt="Bookmark application">
-                <div class="project-links">
-                    <a href=" https://jzpoteat.github.io/Bookmarks-App-Jacob/" target="_blank" class="source-links"><img class="live-code" src="live-icon.jpg" alt="Live-icon" ></a>
-                    <a href="https://github.com/JZPoteat/Bookmarks-App-Jacob" target="_blank" class="source-links"><img class="source-code" src="source-code.jpg" alt="Source code icon"></a>
-                </div>
-                <br>
+                <section class="img-and-desc">
+                    <p class="Project-Description"><i>Bookmarks</i> is an app I created to track your favorite bookmarks using an <strong>API.</strong>  This project was a great learning experience for the relationship between Clients, API's and Servers, and taught me the importance of storing user input <i>outside</i> the DOM.</p>
+                    <section class="img-and-links">    
+                        <img src="BookmarkApp.jpg" alt="Bookmark application">    
+                        <section class="project-links">
+                            <a href=" https://jzpoteat.github.io/Bookmarks-App-Jacob/" target="_blank" class="source-links"><img class="live-code" src="live-icon.jpg" alt="Live-icon" ></a>
+                            <a href="https://github.com/JZPoteat/Bookmarks-App-Jacob" target="_blank" class="source-links"><img class="source-code" src="source-code.jpg" alt="Source code icon"></a>
+                        </section>
+                    </section>
+                </section>
             </section>
         </section>
 
         <section id="Contact">
             <h2><br><br>Contact Me!</h2>
             <img src="TravelImg.jpg" alt="With wife at the Belvedere" id="TravelImg">
-           <p>I'm excited to meet <strong>you</strong> and <strong>your team!</strong><br><br>  Contact me using the icons listed below:</p>
+           <p id="closing-statement">I'm excited to meet <strong>you</strong> and <strong>your team!</strong><br><br>  Contact me using the icons listed below:</p>
         </section>
     </main>
     <footer>
