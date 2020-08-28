@@ -1,7 +1,7 @@
 # Jacob-Portfolio
 This application hosts my Portfolio of Projects and Contact information.
 
-Link to live server:  https://thinkful-ei-orka.github.io/Jacob-Portfolio/
+Link to live server:  https://jzpoteat.github.io/Jacob-Portfolio/
 
 ## High Level Basics
   Mobile-first design, semantic, valid markup, built from scratch, and responsiveness from 320px to 1600px width screens
