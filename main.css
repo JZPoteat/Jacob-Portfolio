@@ -111,15 +111,12 @@ li {
 .project-links {
     width: 75%;
     margin: 0px;
-    margin-left: 15%;
-    margin-right: -10%;
     
 }
 .project-links, footer {
     display: flex;
     justify-content: space-evenly;
 }
-
 
 .logo-img {
     width: 25%;
@@ -133,6 +130,10 @@ li {
 
 #GitHub-Logo {
     width: 100%;
+}
+
+#TravelImg {
+    width: 50%;
 }
 
 #TravelImg, #Main-img {
@@ -162,6 +163,18 @@ li {
     }
 }
 
+.img-and-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    max-width: 750px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (min-width: 800px) {
 
     .img-and-caption {
@@ -175,13 +188,14 @@ li {
         margin-top: 25%;
     }
     .img-and-desc {
-        display: flex;
+    }
+    .img-and-links {
+        margin-bottom: 55px;
     }
     .Project-Description {
         margin: 0;
-        width: 50%;
     }
-    .img-and-desc, .project-links {
+    .img-and-desc {
         margin-top: 5%;
     }
 }
