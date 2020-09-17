@@ -49,74 +49,51 @@
       href="https://fonts.googleapis.com/css2?family=Hind:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://kit.fontawesome.com/26cf9a9b43.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
     <nav role="navigation">
       <ul class="nav-list">
         <li><a class="nav-link" href="#Home">Home</a></li>
-        <li><a class="nav-link" href="#About-Me">About</a></li>
         <li><a class="nav-link" href="#Projects">Projects</a></li>
+        <li><a class="nav-link" href="#About-Me">About</a></li>
         <li><a class="nav-link" href="#Contact">Contact</a></li>
       </ul>
     </nav>
     <main role="main">
       <header role="banner"></header>
       <section id="Home">
-        <h1><br />Jacob Poteat</h1>
+        <h1 id="title"><br />Jacob Poteat</h1>
+        <p id="caption"><i>Software Engineer</i></p>
         <section class="img-and-caption">
           <img src="Main-img.jpg" alt="Wedding picture" id="Main-img" />
-          <p id="caption"><i>Thinkful Engineering Immersion Student</i></p>
-        </section>
-      </section>
-
-      <section id="About-Me">
-        <h2><br /><br />Tell me about yourself...</h2>
-        <section id="About-Me-container">
-          <section id="About-Me-Text">
-            <img src="Headshot.jpg" alt="headshot" id="Headshot" />
-            <p class="Bio">
-              My name is Jacob, and I am an aspiring Web Developer who strives
-              to help others <strong>achieve</strong> their goals. I am excited
-              to join a team where I can <strong>expand</strong> my knowledge of
-              Web Development, and <strong>grow</strong> as a professional.
-              After working in the music industry for 16 years, I became a
-              <strong>self-taught</strong> audio engineer, started and
-              maintained a band, and still play weekly gigs.<br /><br />
-
-              In my spare time, I enjoy <strong>writing</strong> and recording
-              music, <strong>traveling</strong> the world experiencing different
-              cultures, and going on long drives with Kathleen, my wife, and
-              Bobelle, our Border Collie.<br /><br />
-
-              In the future, I strongly desire to combine my passions for coding
-              and music to improve the music industry.
-            </p>
-          </section>
         </section>
       </section>
 
       <section id="Projects">
         <h2><br /><br />Check out my Projects!</h2>
         <section class="project" id="MyClientele">
-          <h3>MyClientele</h3>
+          <h3 style="font-weight: lighter;"><i>MyClientele</i></h3>
           <section class="tech-skills-list">
-            <img src="node-logo.png" alt="Node Logo" class="tech-logo" />
+            <i class="fab fa-node fa-2x" ></i>
             <img
               src="postgresql-logo.png"
               alt="PostgreSQL Logo"
               class="tech-logo"
             />
-            <img src="react-logo.jpg" alt="React Logo" class="tech-logo" />
-            <img src="js-logo.jpg" alt="JavaScript Logo" class="tech-logo" />
-            <img src="html-logo.jpg" alt="HTML logo" class="tech-logo" />
-            <img src="css-logo.jpg" alt="CSS logo" class="tech-logo" />
+            <i class="fab fa-react fa-2x"></i>
+            <i class="fab fa-js-square fa-2x"></i>
+            <i class="fab fa-html5 fa-2x"></i>
+            <i class="fab fa-css3-alt fa-2x"></i>
           </section>
           <section class="img-and-desc">
             <section class="img-and-links">
               <img
                 src="MyClienteleHomePage.png"
                 alt="MyClientele main dashboard"
+                class="demo-pic"
               />
               <section class="project-links">
                 <a
@@ -132,11 +109,7 @@
                   href="https://github.com/thinkful-ei-orka/myclientele-f5-client"
                   target="_blank"
                   class="source-links"
-                  ><img
-                    class="source-code"
-                    src="source-code.jpg"
-                    alt="source code icon"
-                /></a>
+                  ><i class="fab fa-github-square fa-2x" style="padding-top:15px;color:black"></i></a>
               </section>
             </section>
             <p class="Project-Description">
@@ -155,22 +128,22 @@
           </section>
         </section>
         <section class="project" id="QuestLog-App">
-          <h3>QuestLog</h3>
+          <h3 style="font-weight: lighter;"><i>QuestLog</i></h3>
           <section class="tech-skills-list">
-            <img src="node-logo.png" alt="Node Logo" class="tech-logo" />
+            <i class="fab fa-node fa-2x" ></i>
             <img
               src="postgresql-logo.png"
               alt="PostgreSQL Logo"
               class="tech-logo"
             />
-            <img src="react-logo.jpg" alt="React Logo" class="tech-logo" />
-            <img src="js-logo.jpg" alt="JavaScript Logo" class="tech-logo" />
-            <img src="html-logo.jpg" alt="HTML logo" class="tech-logo" />
-            <img src="css-logo.jpg" alt="CSS logo" class="tech-logo" />
+            <i class="fab fa-react fa-2x"></i>
+            <i class="fab fa-js-square fa-2x"></i>
+            <i class="fab fa-html5 fa-2x"></i>
+            <i class="fab fa-css3-alt fa-2x"></i>
           </section>
           <section class="img-and-desc">
             <section class="img-and-links">
-              <img src="questlog-still.jpg" alt="QuestLog main dashboard" />
+              <img src="questlog-still.jpg" alt="QuestLog main dashboard" class="demo-pic"/>
               <section class="project-links">
                 <a
                   href="https://questlog.vercel.app/"
@@ -185,11 +158,7 @@
                   href="https://github.com/JZPoteat/questlog-client"
                   target="_blank"
                   class="source-links"
-                  ><img
-                    class="source-code"
-                    src="source-code.jpg"
-                    alt="source code icon"
-                /></a>
+                  ><i class="fab fa-github-square fa-2x" style="padding-top:15px;color:black"></i></a>
               </section>
             </section>
             <p class="Project-Description">
@@ -205,24 +174,25 @@
           </section>
         </section>
         <section class="project" id="Speak-Easy">
-          <h3>Speak-Easy</h3>
+          <h3 style="font-weight: lighter;"><i>Speak-Easy</i></h3>
           <section class="tech-skills-list">
-            <img src="node-logo.png" alt="Node Logo" class="tech-logo" />
+            <i class="fab fa-node fa-2x" ></i>
             <img
               src="postgresql-logo.png"
               alt="PostgreSQL Logo"
               class="tech-logo"
             />
-            <img src="react-logo.jpg" alt="React Logo" class="tech-logo" />
-            <img src="js-logo.jpg" alt="JavaScript Logo" class="tech-logo" />
-            <img src="html-logo.jpg" alt="HTML logo" class="tech-logo" />
-            <img src="css-logo.jpg" alt="CSS logo" class="tech-logo" />
+            <i class="fab fa-react fa-2x"></i>
+            <i class="fab fa-js-square fa-2x"></i>
+            <i class="fab fa-html5 fa-2x"></i>
+            <i class="fab fa-css3-alt fa-2x"></i>
           </section>
           <section class="img-and-desc">
             <section class="img-and-links">
               <img
                 src="speak-easy-still.jpg"
                 alt="Speak-Easy sample question"
+                class="demo-pic"
               />
               <section class="project-links">
                 <a
@@ -238,11 +208,7 @@
                   href="https://github.com/thinkful-ei-orka/spaced-repetition-Carlo-Jacob-Thomas"
                   target="_blank"
                   class="source-links"
-                  ><img
-                    class="source-code"
-                    src="source-code.jpg"
-                    alt="source code icon"
-                /></a>
+                  ><i class="fab fa-github-square fa-2x" style="padding-top:15px;color:black"></i></a>
               </section>
             </section>
             <p class="Project-Description">
@@ -262,6 +228,34 @@
           </section>
         </section>
       </section>
+
+      <section id="About-Me">
+        <h2><br /><br />Tell me about yourself...</h2>
+        <section id="About-Me-container">
+          <section id="About-Me-Text">
+            <img src="Headshot.jpg" alt="headshot" id="Headshot" />
+            <p class="Bio">
+              My name is Jacob, and I am a full-stack Web Developer striving
+              to help others <strong>achieve</strong> their goals. I am excited
+              to join a team where I can <strong>expand</strong> my knowledge of
+              Web Development, and <strong>grow</strong> as a professional.
+              After working in the music industry for 16 years, I became a
+              <strong>self-taught</strong> audio engineer, started and
+              maintained a band, and still play weekly gigs.<br /><br />
+
+              In my spare time, I enjoy <strong>writing</strong> and recording
+              music, <strong>traveling</strong> the world experiencing different
+              cultures, and going on long drives with Kathleen, my wife, and
+              Bobelle, our Border Collie.<br /><br />
+
+              In the future, I strongly desire to combine my passions for coding
+              and music to improve the music industry.
+            </p>
+          </section>
+        </section>
+      </section>
+
+      
 
       <section id="Contact">
         <h2><br />Contact Me!</h2>
